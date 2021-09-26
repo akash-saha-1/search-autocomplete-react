@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.heading {
+  color: coral;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  min-width: 300px;
+  padding: 2px 10px;
+  padding-left: 30px;
+}
+
+.search-label {
+  position: absolute;
+  top: 72px;
+  padding-left: 10px;
+}
+
+.result-container {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 298px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid lightgrey;
+  z-index: 1;
+  box-shadow: 0 0 1px 1px gray;
+}
+
+.no-result {
+  height: 100px;
+}
+
+.no-user {
+  text-align: center;
+  font-size: 18px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card:hover,
+.card:active,
+.card:focus {
+  cursor: pointer;
+  background-color: lightyellow;
+}
+
+.card p {
+  margin: 0;
+}
+
+.table {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+@media(max-width: 557px) {
+  .search-label {
+    top: 108px;
+  }
+}
